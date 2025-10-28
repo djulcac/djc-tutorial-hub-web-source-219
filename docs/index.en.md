@@ -6,7 +6,15 @@ title: DJC Tutorial
 
 ---
 
-[Migrate and restore data in Django](https://tutorial-hub.djc.pe/t/8/)
+[Migrate and restore data in Django](https://tutorial-hub.djc.pe/t/8/)  
+Danny  
+2025-10-28
+
+---
+
+[Using Prepositions "IN" and "ON" in English](https://tutorial-english.djc.pe/t/9/)  
+Danny  
+2025-10-28
 
 ---
 
