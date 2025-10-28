@@ -1,0 +1,116 @@
+.IndexPage {
+  font-family: Arial, sans-serif;
+  /* background-color: #f5f5f5; */
+  min-height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+  padding: 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+  color: #333;
+  text-align: center;
+}
+
+.section-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.section-card {
+  background-color: white;
+  border-radius: 8px;
+  padding: 16px;
+  width: 100%;
+  max-width: 300px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.section-card strong {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 1.1rem;
+  color: #222;
+}
+
+.section-card ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.section-card li {
+  margin-bottom: 6px;
+}
+
+.section-card a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+.section-card a:hover {
+  text-decoration: underline;
+}
+
+
+.block {
+  width: 100%;
+  max-width: 90%;
+  background-color: white;
+  border-radius: 10px;
+  padding: 24px;
+  margin-bottom: 40px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.block h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  color: #222;
+  border-bottom: 2px solid #0077cc;
+  padding-bottom: 6px;
+  text-align: left;
+}
+
+.block p {
+  margin-bottom: 16px;
+  text-align: left;
+  color: #444;
+}
+
+.hero {
+  width: 100%;
+  max-width: 90%;
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #fff, #fff);
+  color: black;
+  text-align: center;
+  margin-bottom: 40px;
+  border-radius: 16px 16px 16px 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 16px;
+  font-weight: bold;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+

@@ -1,0 +1,37 @@
+<div>
+  <style>
+    .lang-selector {
+      float: right;
+      margin: 20px;
+      padding: 8px;
+      border-radius: 6px;
+      font-size: 16px;
+    }
+  </style>
+
+  <select id="language" class="lang-selector">
+    {% for lang_code, lang_name in languages.items() %}
+      <option value="{{ lang_code }}" {% if current_lang == lang_code %}selected{% endif %}>
+        {{ lang_name }}
+      </option>
+    {% endfor %}
+  </select>
+
+  <script>
+    document.getElementById("language").addEventListener("change", function() {
+      const lang = this.value;
+      const defaultLang = "{{ default_lang }}";
+      const pageUrl = "{{ page_url }}";
+
+      let newUrl;
+
+      if (lang === defaultLang) {
+        newUrl = pageUrl;
+      } else {
+        newUrl = "/" + lang + pageUrl;
+      }
+
+      window.location.href = newUrl;
+    });
+  </script>
+</div>

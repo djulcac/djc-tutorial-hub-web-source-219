@@ -1,0 +1,54 @@
+/* 1-start version */
+.version {
+  font-size: 14px;
+  color: gray;
+  text-align: right;
+  margin-top: 10px;
+}
+.version a {
+  color: blue;
+  text-decoration: none;
+}
+.version a:hover {
+  text-decoration: underline;
+}
+/* 1-end version */
+
+/* 2-start copy */
+pre {
+  position: relative;
+  background-color: #2d2d2d;
+  color: #d4d4d4;
+  /* padding: 1em; */
+  border-radius: 8px;
+  font-family: monospace;
+  font-size: 14px;
+  margin-bottom: 1.5em;
+  overflow-x: auto;
+}
+
+.copy-btn {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  background-color: #eee;
+  color: #000;
+  border: 1px solid #555;
+  font-size: 12px;
+  font-family: monospace;
+  padding: 4px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.copy-btn:hover {
+  background-color: #505050;
+}
+/* 2-end copy */
+
+/* 4-start box */
+.box-tt {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/* 4-end box */

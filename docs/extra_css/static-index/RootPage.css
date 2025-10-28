@@ -1,0 +1,15 @@
+.RootPage {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.RootPage__Content {
+  display: flex;
+  flex: 1;
+}
+
+.RootPage__Footer {
+  background-color: #f1f1f1;
+  text-align: center;
+}

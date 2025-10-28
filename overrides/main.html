@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+  <!-- add description --> 
+  {% if page and not page.is_homepage %}<meta name="description" content="{{ meta_description }}">{% endif %}
+
+  {{ super() }}
+
+  <!-- python -->
+  <link crossorigin="" href="/extra_css/python/style.css" rel="stylesheet">
+  <script src="/extra_css/python/script.js"></script>
+
+  <!-- alternate -->
+  {% if "alternate_links" %}{{ alternate_links }}{% endif %}
+
+{% endblock %}
+
+{% block site_name %}
+  <a class="navbar-brand" href="https://www.djc.pe/">DJC</a>
+
+  <form
+    action="https://www.djc.pe/query/"
+    class="d-flex align-items-center ms-3" role="search" method="get"
+    style="max-width:220px;"
+  >
+    <input
+      class="form-control form-control-sm me-2"
+      type="search"
+      name="query"
+      placeholder="Search..."
+      aria-label="Search"
+    />
+    <button class="btn btn-sm btn-outline-secondary" type="submit" title="Search">
+      <i class="fa fa-search"></i>
+    </button>
+  </form>
+{% endblock %}
+
+{% block content %}
+    {{ super() }}
+{% endblock %}
+
+{% block footer %}
+{% endblock %}
+<!-- v1.1.0 -->
+ 
