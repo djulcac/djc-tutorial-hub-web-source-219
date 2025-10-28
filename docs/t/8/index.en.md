@@ -32,7 +32,7 @@ This tutorial explains, with examples for PowerShell on Windows, how to handle m
 
 Note: you can also use `pipenv`, `poetry`, or another package manager; adapt the commands accordingly.
 
-### 1) Migrations: Create and Apply
+## 1) Migrations: Create and Apply
 
 1. Create migration files from model changes:
 
@@ -75,7 +75,7 @@ Example: go back to migration `0003_auto` of the `blog` app:
 python manage.py migrate blog 0003_auto
 ```
 
-### 2) Backup and Restore Data in Django
+## 2) Backup and Restore Data in Django
 
 There are two main methods:
 - Application-level backups (fixtures) with `dumpdata` / `loaddata`.
@@ -83,7 +83,7 @@ There are two main methods:
 
 Choose the method based on your data size and whether you need to preserve schemas/indexes/procedures.
 
-#### A) Using Fixtures: dumpdata / loaddata
+### A) Using Fixtures: dumpdata / loaddata
 
 1. Make a JSON dump of the entire database (useful for small projects or deployments between Django environments):
 
@@ -107,7 +107,7 @@ Notes:
 - `dumpdata` writes data in JSON format (or XML/YAML if you install support). Does not include media files.
 - For sensitive data, encrypt or protect the resulting file.
 
-#### B) Database-Level Backups
+### B) Database-Level Backups
 
 - SQLite: copy the `db.sqlite3` file (ensure Django isn't writing during the copy).
 
@@ -137,12 +137,12 @@ mysqldump -u dbuser -p dbname > backup_db.sql
 mysql -u dbuser -p dbname < backup_db.sql
 ```
 
-#### Practical Recommendations
+### Practical Recommendations
 - For development or quick migrations, `dumpdata` + `loaddata` works well.
 - For production environments with lots of data, use pg_dump/pg_restore or mysqldump to preserve indexes and performance.
 - Before restoring in production, test the restore on a staging copy.
 
-### 3) Typical Migration + Backup Flow Before Destructive Changes
+## 3) Typical Migration + Backup Flow Before Destructive Changes
 
 1. Create complete database backup (pg_dump or SQLite copy).
 2. Create migrations: `makemigrations`.
@@ -150,7 +150,7 @@ mysql -u dbuser -p dbname < backup_db.sql
 4. Apply migrations in staging and test.
 5. Apply migrations in production during maintenance window.
 
-### 4) Restore in Case of Problems (Examples)
+## 4) Restore in Case of Problems (Examples)
 
 - If you used `dumpdata`:
 
@@ -163,7 +163,7 @@ python manage.py loaddata backup_all.json
 
 - If you used `pg_dump` or `mysqldump`, use the corresponding restore commands (see previous section). Make sure to recreate users/privileges if necessary.
 
-### 5) Media and Static Files
+## 5) Media and Static Files
 - `MEDIA` files are not included in fixtures. Make a copy of the `MEDIA_ROOT` folder (e.g., `media/`) and restore by copying the files to the same location.
 
 ```powershell
@@ -171,13 +171,13 @@ python manage.py loaddata backup_all.json
 robocopy .\media .\backups\media_backup /E
 ```
 
-### 6) Common Problems and Solutions
+## 6) Common Problems and Solutions
 - Error: "table does not exist" after `loaddata` -> run `migrate` before creating tables.
 - Misaligned migrations between branches -> use `python manage.py showmigrations` and consider `--fake` if you've manually created the structure.
 - JSON encoding errors -> check that `dumpdata` and `loaddata` use the same Django/serializer version.
 - PostgreSQL permissions -> ensure the DB user has necessary privileges to create tables/indexes when restoring.
 
-### 7) Quick Verification Checks
+## 7) Quick Verification Checks
 - Check applied migrations:
 
 ```powershell
@@ -198,7 +198,7 @@ python manage.py shell
 >>> MyModel.objects.count()
 ```
 
-### 8) Summarized Best Practices
+## 8) Summarized Best Practices
 - Always backup before destructive changes.
 - Test migrations in staging before production.
 - Keep migrations in version control.
