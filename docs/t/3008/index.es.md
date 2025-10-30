@@ -208,16 +208,17 @@ LOGOUT_REDIRECT_URL = '/cuentas/login/'
 
 ## 8. Probar el sistema
 
-1. Ejecuta el servidor:
+Ejecuta el servidor:
 
-   ```bash
-   python manage.py runserver
-   ```
-2. Ve a:
+```bash
+python manage.py runserver
+```
 
-   * `/cuentas/registro/` → para registrarte
-   * `/cuentas/login/` → para iniciar sesión
-   * `/cuentas/logout/` → para cerrar sesión
+Ve a:
+
+* `/cuentas/registro/` → para registrarte
+* `/cuentas/login/` → para iniciar sesión
+* `/cuentas/logout/` → para cerrar sesión
 
 Django gestionará automáticamente las sesiones de usuario.
 

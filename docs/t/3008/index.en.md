@@ -208,17 +208,17 @@ LOGOUT_REDIRECT_URL = '/accounts/login/'
 
 ## 8. Test the System
 
-1. Run the development server:
+Run the development server:
 
-   ```bash
-   python manage.py runserver
-   ```
+```bash
+python manage.py runserver
+```
 
-2. Visit:
+Visit:
 
-   * `/accounts/register/` → to register
-   * `/accounts/login/` → to log in
-   * `/accounts/logout/` → to log out
+* `/accounts/register/` → to register
+* `/accounts/login/` → to log in
+* `/accounts/logout/` → to log out
 
 Django will automatically handle user sessions.
 
