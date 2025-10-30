@@ -26,6 +26,12 @@ Danny
 
 ---
 
+[How to Use HTML Templates in Django (Templates and Contexts)](https://tutorial-hub.djc.pe/t/2008/)  
+Danny  
+2025-10-29
+
+---
+
 ## What's new
 
 - [Migrate and restore data in Django](./t/8/index.md)
