@@ -1,6 +1,7 @@
 # v1.2.0 202509021640
 import add_languages
 import add_date
+import add_category
 
 def on_page_context(context, page, config, nav):
     # agregar meta_description
@@ -17,12 +18,17 @@ def on_page_context(context, page, config, nav):
     # # personalizar canonical
     if page.meta.get("canonical_url"):
         page.canonical_url = page.meta['canonical_url']
+    
+    # el titulo en meta se agrega en add_category.get_markdown
 
     return context
 
 def on_page_markdown(markdown, page, config, files):
     add_lan = add_languages.get_select(page, config)
-    return add_lan + "\n\n" + markdown
+    new_markdown = markdown
+    if page.meta.get("type_content") == 'tutorial':
+        new_markdown = add_category.get_markdown(markdown, page, config)
+    return add_lan + "\n\n" + new_markdown
 
 def on_post_build(config):
     # actualizar la fecha de sitemap
