@@ -9,6 +9,7 @@ title: DJC Tutorial
 ---
 
 | [Django](https://tutorial-hub.djc.pe/c/django/) |
+[Javascript](https://tutorial-hub.djc.pe/c/javascript/) |
 [Nasdaq](https://tutorial-hub.djc.pe/c/nasdaq/) |
 [Python](https://tutorial-hub.djc.pe/c/python/) |
 
@@ -39,6 +40,12 @@ Danny
 ---
 
 [Which Companies Are in the Nasdaq 100?](https://tutorial-hub.djc.pe/t/6008/)  
+Danny  
+2025-11-19
+
+---
+
+[How to Use UUID v5 in JavaScript (HTML + Web Crypto API)](https://tutorial-hub.djc.pe/t/7008/)  
 Danny  
 2025-11-19
 
