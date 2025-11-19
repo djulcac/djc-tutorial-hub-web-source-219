@@ -8,6 +8,12 @@ title: Tutorial DJC
 
 ---
 
+| [Django](https://tutorial-hub.djc.pe/es/c/django/) |
+[Nasdaq](https://tutorial-hub.djc.pe/es/c/nasdaq/) |
+[Python](https://tutorial-hub.djc.pe/es/c/python/) |
+
+---
+
 [Migrar y restaurar datos en Django](https://tutorial-hub.djc.pe/es/t/8/)  
 Danny  
 2025-10-28
@@ -23,6 +29,12 @@ Danny
 [Cuáles son las ventajas y desventajas de usar Django para desarrollo web](https://tutorial-hub.djc.pe/es/t/1008/)  
 Danny  
 2025-10-28
+
+---
+
+[¿Cuáles son las empresas del Nasdaq 100?](https://tutorial-hub.djc.pe/es/t/6008/)  
+Danny  
+2025-11-19
 
 ---
 

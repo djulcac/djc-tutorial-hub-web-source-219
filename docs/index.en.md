@@ -8,6 +8,12 @@ title: DJC Tutorial
 
 ---
 
+| [Django](https://tutorial-hub.djc.pe/c/django/) |
+[Nasdaq](https://tutorial-hub.djc.pe/c/nasdaq/) |
+[Python](https://tutorial-hub.djc.pe/c/python/) |
+
+---
+
 [Migrate and restore data in Django](https://tutorial-hub.djc.pe/t/8/)  
 Danny  
 2025-10-28
@@ -29,6 +35,12 @@ Danny
 [How to Use HTML Templates in Django (Templates and Contexts)](https://tutorial-hub.djc.pe/t/2008/)  
 Danny  
 2025-10-29
+
+---
+
+[Which Companies Are in the Nasdaq 100?](https://tutorial-hub.djc.pe/t/6008/)  
+Danny  
+2025-11-19
 
 ---
 
