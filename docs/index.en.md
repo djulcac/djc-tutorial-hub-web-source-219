@@ -51,6 +51,12 @@ Danny
 
 ---
 
+[How to Analyze a Stock in the Stock Market](https://tutorial-hub.djc.pe/t/8008/)  
+Danny  
+2025-11-19
+
+---
+
 ## What's new
 
 - [Migrate and restore data in Django](./t/8/index.md)

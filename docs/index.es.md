@@ -51,6 +51,12 @@ Danny
 
 ---
 
+[Cómo analizar una acción en la bolsa de valores](https://tutorial-hub.djc.pe/es/t/8008/)  
+Danny  
+2025-11-19
+
+---
+
 ## Lo nuevo
 
 - [Migrar y restaurar datos en Django](./t/8/index.md)
