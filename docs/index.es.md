@@ -9,6 +9,7 @@ title: Tutorial DJC
 ---
 
 | [Django](https://tutorial-hub.djc.pe/es/c/django/) |
+[Google](https://tutorial-hub.djc.pe/es/c/google/) |
 [Javascript](https://tutorial-hub.djc.pe/es/c/javascript/) |
 [Nasdaq](https://tutorial-hub.djc.pe/es/c/nasdaq/) |
 [Python](https://tutorial-hub.djc.pe/es/c/python/) |
@@ -53,7 +54,13 @@ Danny
 
 [Cómo analizar una acción en la bolsa de valores](https://tutorial-hub.djc.pe/es/t/8008/)  
 Danny  
-2025-11-19
+2025-11-20
+
+---
+
+[Cómo ver las búsquedas internas en tu web usando Google Analytics 4 (GA4)](https://tutorial-hub.djc.pe/es/t/9008/)  
+Danny  
+2025-11-20
 
 ---
 

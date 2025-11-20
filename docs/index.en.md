@@ -10,6 +10,7 @@ title: DJC Tutorial
 
 | [Django](https://tutorial-hub.djc.pe/c/django/) |
 [Javascript](https://tutorial-hub.djc.pe/c/javascript/) |
+[Google](https://tutorial-hub.djc.pe/c/google/) |
 [Nasdaq](https://tutorial-hub.djc.pe/c/nasdaq/) |
 [Python](https://tutorial-hub.djc.pe/c/python/) |
 
@@ -53,9 +54,16 @@ Danny
 
 [How to Analyze a Stock in the Stock Market](https://tutorial-hub.djc.pe/t/8008/)  
 Danny  
-2025-11-19
+2025-11-20
 
 ---
+
+[How to View Internal Searches on Your Website Using Google Analytics 4 (GA4)](https://tutorial-hub.djc.pe/t/9008/)  
+Danny  
+2025-11-20
+
+---
+
 
 ## What's new
 
