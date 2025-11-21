@@ -16,6 +16,12 @@ title: Tutorial DJC
 
 ---
 
+[Cómo analizar un reporte 10-Q usando Google (GOOG) como ejemplo](https://tutorial-hub.djc.pe/es/t/10008/)  
+Danny  
+2025-11-20
+
+---
+
 [Migrar y restaurar datos en Django](https://tutorial-hub.djc.pe/es/t/8/)  
 Danny  
 2025-10-28
