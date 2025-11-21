@@ -3,7 +3,7 @@ site_favicon: img/icon.png
 site_url: https://tutorial-hub.djc.pe/
 
 nav:
-  # - DJC: https://www.djc.pe/
+  - Game: https://www.djc.pe/game/
   - Price: https://www.djc.pe/price/
   - Tutorial: https://tutorial-hub.djc.pe/
 
