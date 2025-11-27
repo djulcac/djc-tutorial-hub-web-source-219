@@ -1,3 +1,4 @@
+---
 type_content: tutorial
 title: How to Analyze a 10-Q Report Using Google (GOOG) as an Example
 description: A complete guide to learning how to read and analyze a 10-Q report professionally, using Alphabet’s (GOOG) quarterly filing as an example. It explains each section, the correct reading order, and how to interpret the financial data.
