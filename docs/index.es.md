@@ -8,7 +8,9 @@ title: Tutorial DJC
 
 ---
 
-| [Django](https://tutorial-hub.djc.pe/es/c/django/) |
+|
+[Codeforces](https://tutorial-hub.djc.pe/es/c/codeforces/) |
+[Django](https://tutorial-hub.djc.pe/es/c/django/) |
 [Google](https://tutorial-hub.djc.pe/es/c/google/) |
 [Javascript](https://tutorial-hub.djc.pe/es/c/javascript/) |
 [Nasdaq](https://tutorial-hub.djc.pe/es/c/nasdaq/) |
